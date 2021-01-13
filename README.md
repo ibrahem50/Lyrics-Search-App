@@ -1,5 +1,5 @@
 # Lyrics-Search-App
-App that show the top 10 tracks and we can use to search song lyrics using ReactJs, Hooks, and Musixmatch public API.
+App that show the top 10 tracks and use to search song lyrics using ReactJs, Hooks, and Musixmatch public API.
 
 # Getting Started with Create React App
 
