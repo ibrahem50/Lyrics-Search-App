@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router , Route , Switch} from 'react-router-dom'
 import Navbar from './components/layout/Navbar';
 import Index from './components/layout/Index';
+import { Provider } from './components/context';
+
 
 
 class App extends Component {
   state = {  }
   render() { 
     return ( 
+     
+     <Provider>
       <Router>
        <React.Fragment>
          <Navbar/>
@@ -18,6 +22,7 @@ class App extends Component {
          </div>
        </React.Fragment>
       </Router>
+    </Provider>
      );
   }
 }
